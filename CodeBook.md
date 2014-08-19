@@ -1,7 +1,7 @@
 ### Course Project Code Book
 This file describes the variables, the data, and transformations / work performed to clean up the data in the course project.
 
-## Data Description Source
+### Data Description Source
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
