@@ -54,6 +54,7 @@ For each record in the dataset it is provided:
 #### Transformations / Tidy Data Set
 
 ##### Downloaded data set using
+
 `download.file()`
 
 `unzip()` function to extract the zip to `UCI HAR Dataset` directory
@@ -64,8 +65,10 @@ For each record in the dataset it is provided:
 
 ##### Use Descriptive activity names to name activities in the data set
 
+activity_labels.txt has the activity names, use `read.table()` and `factor()` to replace numbers with activities
+
 ##### Appropriately label data set with descriptive variable names
 
 ##### Extract only measurements on the mean and s.d. for each measurement
 
-- Create an independent tidy data set with the average of each variable for each activity and each subject
+##### Create an independent tidy data set with the average of each variable for each activity and each subject
