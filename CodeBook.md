@@ -71,7 +71,7 @@ activity_labels.txt has the activity names, use `read.table()` and `factor()` to
 
 features.txt has the attribute names, use `read.table()` and `factor()` to add descriptive variable names
 
-##### Merge Training and Test sets to one data set
+##### Merge training and test sets to one data set
 
 ##### Extract only measurements on the mean and s.d. for each measurement
 
