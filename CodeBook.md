@@ -69,6 +69,10 @@ activity_labels.txt has the activity names, use `read.table()` and `factor()` to
 
 ##### Appropriately label data set with descriptive variable names
 
+features.txt has the attribute names, use `read.table()` and `factor()` to add descriptive variable names
+
+##### Merge Training and Test sets to one data set
+
 ##### Extract only measurements on the mean and s.d. for each measurement
 
 ##### Create an independent tidy data set with the average of each variable for each activity and each subject
