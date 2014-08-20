@@ -53,3 +53,9 @@ For each record in the dataset it is provided:
 
 ### Transformations / Tidy Data Set
 
+Downloaded data set using
+`download.file()`
+
+`unzip()` function to extract the zip to `UCI HAR Dataset` directory
+
+`read.table()` used to load the data to R dataframes
