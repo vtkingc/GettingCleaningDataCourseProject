@@ -63,16 +63,22 @@ For each record in the dataset it is provided:
 
 `read.table()` used to load the data to R dataframes
 
-##### Use Descriptive activity names to name activities in the data set
-
-activity_labels.txt has the activity names, use `read.table()` and `factor()` to replace numbers with activities
-
-##### Appropriately label data set with descriptive variable names
-
-features.txt has the attribute names, use `read.table()` and `factor()` to add descriptive variable names
-
 ##### Merge training and test sets to one data set
+
+Use `colnames()` to setColumn names and use `rbind()` and `cbind()` to merge
 
 ##### Extract only measurements on the mean and s.d. for each measurement
 
-##### Create an independent tidy data set with the average of each variable for each activity and each subject
+Filter based on column names if contain mean or std, use `subset()` with those columns to extract
+
+##### Use Descriptive activity names to name activities in the data set
+
+activity_labels.txt has the activity names, use `read.table()` and `names()` and `merge()` to add activity labels
+
+##### Appropriately label data set with descriptive variable names
+
+Replace acc with accelerometer and replace Gyro with gyroscope using `gsub()`
+
+##### Create a 2nd independent tidy data set with the average of each variable for each activity and each subject
+
+Use `Filter()` to filter out id columns, `melt()` to get only ones to use for average, `dcast()` to with mean to calculate average
